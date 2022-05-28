@@ -54,11 +54,31 @@
 # result=re.findall(r"he.{2}o",text)
 # print(result)
 
+# import re
+# txt="This is yash from up uttar pradesh"
+# result=re.findall(r"mzn|yash",txt)
+# print(result)
+# if result:
+#     print("Yes got 1 string from the container")
+# else:
+#     print("No bad luch please next time")    
+
+# import re 
+# txt="This is my bike"
+# result=re.split(r"\s",txt,2)
+# print(result)
+
+# import re
+# txt="This is my car"
+# result=re.sub(r"\s","4",txt)
+# print(result)
+
+# import re
+# txt="this is may car"
+# result=re.sub("\s","4",txt,1)
+# print(result)
+
 import re
-txt="This is yash from up uttar pradesh"
-result=re.findall(r"mzn|yash",txt)
+txt="the rain in my heart are u able to see that beauty"
+result=re.sub("\s","10",txt,4)
 print(result)
-if result:
-    print("Yes got 1 string from the container")
-else:
-    print("No bad luch please next time")    
