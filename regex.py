@@ -63,10 +63,10 @@
 # else:
 #     print("No bad luch please next time")    
 
-# import re 
-# txt="This is my bike"
-# result=re.split(r"\s",txt,2)
-# print(result)
+import re 
+txt="This is my bike"
+result=re.split(r"\s",txt,1)
+print(result)
 
 # import re
 # txt="This is my car"
@@ -78,7 +78,7 @@
 # result=re.sub("\s","4",txt,1)
 # print(result)
 
-import re
-txt="the rain in my heart are u able to see that beauty"
-result=re.sub("\s","10",txt,4)
-print(result)
+# import re
+# txt="the rain in my heart are u able to see that beauty"
+# result=re.sub("\s","10",txt,4)
+# print(result)

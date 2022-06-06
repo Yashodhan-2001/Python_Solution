@@ -1,5 +1,6 @@
 from collections import Counter
 import collections
+from typing import OrderedDict
 # print(Counter([1,2,2,3,3,3,4,5,6,7,2,3,4,5,6,7,8,]))
 
 # print(Counter({'A','A','A','B','B','B','B','B','C','C','C','D','D','D','E','E','E','E','E','E','E','E','E','E'}))
@@ -36,3 +37,16 @@ print(shri)
 # for keys,values in count.most_common(3):
 #      print('%s: %d' % (keys, values))
     
+dc=OrderedDict()
+print("Before dict")
+dc['a']=10
+dc['b']=20
+dc['c']=30
+dc['d']=40
+for key,values in dc.items():
+    print(key,values)
+dc.pop("b")
+dc["b"]=40
+print("after dict")
+for key,values in dc.items():
+    print(key,values)    
